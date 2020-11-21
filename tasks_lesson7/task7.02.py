@@ -1,5 +1,8 @@
+from abc import ABC, abstractmethod
 class Clothes:
 
+
+    @abstractmethod
     def calc(self):
         pass
 
